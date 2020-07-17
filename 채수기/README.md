@@ -61,5 +61,5 @@ Nextion Editor 다운로드, 사용법에 관해선 https://kwonkyo.tistory.com/
 
 Nextion 명령어나 문법에 관해선 https://m.blog.naver.com/PostView.nhn?blogId=ansdbtls4067&logNo=221606667477&proxyReferer=https:%2F%2Fwww.google.com%2F 이 사이트를 참조
 
-추가적으로 참조할만한 사이트 : https://www.itead.cc/wiki/index.php?title=Nextion_Instruction_Set&oldid 
+추가적으로 참조할만한 사이트 : https://www.itead.cc/wiki/index.php?title=Nextion_Instruction_Set&oldid 또는
 https://seithan.com/download-nt-ino
