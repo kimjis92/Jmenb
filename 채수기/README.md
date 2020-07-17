@@ -45,7 +45,8 @@ Nextion Editor 다운로드, 사용법에 관해선 https://kwonkyo.tistory.com/
 
 - Nextion to Arduino : 
 
-  ![image-20200717104301458](Jmenb\채수기\img\img1.png)
+  ![img1](https://user-images.githubusercontent.com/59247266/87740231-ac163f00-c81c-11ea-826a-8ff9c8f99bd5.png)
+
 
   넥션은 명령어를 수행할 때 위와 같은 헥사코드를 송신한다. 위는 넥션에서 get함수를 써서 값을 받을 때 송신하는 헥사코드다. 첫 1바이트는 무슨명령어인지 0x71는 get 명령어를 사용하여 숫자 값을 요청할 때 송신하는 것이고, 그 다음바이트 0X63는 10진수 데이터 99를 의미하는 것이고 뒤 00들은 16의 제곱 이상의 값을 표현할 때 쓰이며 0xff3개는 종료 바이트이다. 우리한테 필요한건 2번째 바이트이므로 이것만 아두이노에서 받으면 된다.
 
